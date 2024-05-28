@@ -204,8 +204,19 @@
   flatReductions:
     Poison: 2
     Radiation: 2
-
-
+    
+- type: damageModifierSet  # Generally gonna be tankier
+  id: Yowie
+  coefficients:
+    Blunt: 0.8
+    Slash: 0.8
+    Piercing: 0.8
+    Heat: 1.2 # Fur = Overheating
+    Shock: 0.8
+    Cold: 0.7  #Fur = Keep warm
+    Bloodloss: 0.9
+    Toxin: 0.6 # Druggos are taking speed, weed, heroween; they can shrug off some toxin damage
+    
 - type: damageModifierSet
   id: Zombie #Blunt resistant and immune to biological threats, but can be hacked apart and burned
   coefficients:

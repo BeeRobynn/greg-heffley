@@ -1,0 +1,59 @@
+# Anything human specific (e.g. UI, input) goes under MobHuman
+- type: entity
+  parent: BaseMobSpeciesOrganic
+  id: BaseMobYowie
+  name: Urist McYowie
+  abstract: true
+  components:
+  - type: Hunger
+  - type: Icon # It will not have an icon in the adminspawn menu without this. Body parts seem fine for whatever reason.
+    sprite: Mobs/Species/Yowie/parts.rsi
+    state: full
+  - type: Thirst
+  - type: Butcherable
+    butcheringType: Spike
+    spawned:
+    - id: FoodMeatHuman
+      amount: 5
+  - type: Carriable
+  
+  - type: HumanoidAppearance
+    species: Human
+    hideLayersOnEquip:
+    - Hair
+    - Snout
+  - type: Temperature # Fur = bad with heat, stole numbers from moth
+    heatDamageThreshold: 320
+    coldDamageThreshold: 230
+    currentTemperature: 310.15
+    specificHeat: 46
+    coldDamage:
+      types:
+        Cold : 0.05 #per second, scales with temperature & other constants
+    heatDamage:
+      types:
+        Heat : 3 #per second, scales with temperature & other constants
+  - type: Sprite
+    scale: 1.25, 1.25
+  - type: MeleeWeapon
+    damage:
+      types:
+        Blunt: 7
+  - type: MovementSpeedModifier
+    currentWalkSpeed: 6
+    currentSprintSpeed: 6
+  - type: Inventory
+    templateId: yowie
+  - type: Damageable
+    damageModifierSet: Yowie
+  - type: Metabolizer
+    UpdateInterval: 3
+  - type: BoganAccent
+
+- type: entity
+  parent: BaseSpeciesDummy
+  id: MobYowieDummy
+  noSpawn: true
+  components:
+  - type: HumanoidAppearance
+    species: Yowie

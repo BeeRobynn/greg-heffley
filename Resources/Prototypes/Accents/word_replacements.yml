@@ -3,6 +3,43 @@
 # this is kind of dumb but localization demands it.
 # i guess you could just specify the prefix ('mobster') and count and let the system fill it
 - type: accent
+  id: bogan
+  wordReplacements:
+    accent-bogan-words-1: accent-bogan-words-replace-1
+    accent-bogan-words-2: accent-bogan-words-replace-2
+    accent-bogan-words-3: accent-bogan-words-replace-3
+    accent-bogan-words-4: accent-bogan-words-replace-4
+    accent-bogan-words-5: accent-bogan-words-replace-5    
+    accent-bogan-words-6: accent-bogan-words-replace-6 
+    accent-bogan-words-7: accent-bogan-words-replace-7
+    accent-bogan-words-8: accent-bogan-words-replace-8
+    accent-bogan-words-9: accent-bogan-words-replace-9
+    accent-bogan-words-10: accent-bogan-words-replace-10
+    accent-bogan-words-11: accent-bogan-words-replace-11
+    accent-bogan-words-12: accent-bogan-words-replace-12
+    accent-bogan-words-13: accent-bogan-words-replace-13
+    accent-bogan-words-14: accent-bogan-words-replace-14
+    accent-bogan-words-15: accent-bogan-words-replace-15
+    accent-bogan-words-16: accent-bogan-words-replace-16
+    accent-bogan-words-17: accent-bogan-words-replace-17
+    accent-bogan-words-18: accent-bogan-words-replace-18
+    accent-bogan-words-19: accent-bogan-words-replace-19
+    accent-bogan-words-20: accent-bogan-words-replace-20
+    accent-bogan-words-21: accent-bogan-words-replace-21
+    accent-bogan-words-22: accent-bogan-words-replace-22
+    accent-bogan-words-23: accent-bogan-words-replace-23
+    accent-bogan-words-24: accent-bogan-words-replace-24
+    accent-bogan-words-25: accent-bogan-words-replace-25
+    accent-bogan-words-26: accent-bogan-words-replace-26
+    accent-bogan-words-27: accent-bogan-words-replace-27
+    accent-bogan-words-28: accent-bogan-words-replace-28
+    accent-bogan-words-29: accent-bogan-words-replace-29
+    accent-bogan-words-30: accent-bogan-words-replace-30
+    accent-bogan-words-31: accent-bogan-words-replace-31
+    accent-bogan-words-32: accent-bogan-words-replace-32
+    accent-bogan-words-33: accent-bogan-words-replace-33
+
+- type: accent
   id: ohio
   wordReplacements:
     accent-ohio-words-1: accent-ohio-words-replace-1
