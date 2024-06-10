@@ -192,6 +192,7 @@
 
 - type: damageModifierSet
   id: Vox
+<<<<<<< HEAD
   coefficients:
     Slash: 1.3
     Shock: 1.2 #electric type beats bird
@@ -217,6 +218,11 @@
     Bloodloss: 0.9
     Toxin: 0.6 # Druggos are taking speed, weed, heroween; they can shrug off some toxin damage
     
+=======
+  coefficients: # To be decided
+    Poison: 1
+
+>>>>>>> c725b64f60e7b25d404412380a63d27248773d45
 - type: damageModifierSet
   id: Zombie #Blunt resistant and immune to biological threats, but can be hacked apart and burned
   coefficients:
