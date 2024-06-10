@@ -2,7 +2,8 @@
 
 # this is kind of dumb but localization demands it.
 # i guess you could just specify the prefix ('mobster') and count and let the system fill it
-- type: accent
+
+- type: accent #(Goobstation) New Yowie Accent, to whoever ends up reading this, remember to spell each word exactly
   id: bogan
   wordReplacements:
     accent-bogan-words-1: accent-bogan-words-replace-1

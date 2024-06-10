@@ -1,0 +1,41 @@
+- type: marking
+  id: YowieFur
+  bodyPart: Chest
+  markingCategory: Overlay
+  speciesRestriction: [Yowie] # Goobstation - Yowie Fur only for Yowie
+  coloring:
+    default:
+      type:
+        !type:SimpleColoring
+          color: "#FFFFFF"
+  sprites:
+  - sprite: Goobstation/Mobs/Customization/yowie_fur.rsi
+    state: yowie_fur
+    
+- type: marking
+  id: YowieFurFeetRight
+  bodyPart: RFoot
+  markingCategory: Overlay
+  speciesRestriction: [Yowie] # Goobstation - Yowie Fur only for Yowie
+  coloring:
+    default:
+      type:
+        !type:SimpleColoring
+          color: "#FFFFFF"
+  sprites:
+  - sprite: Goobstation/Mobs/Customization/yowie_fur.rsi
+    state: yowie_fur_feet_right
+    
+- type: marking
+  id: YowieFurFeetLeft
+  bodyPart: LFoot
+  markingCategory: Overlay
+  speciesRestriction: [Yowie] # Goobstation - Yowie Fur only for Yowie
+  coloring:
+    default:
+      type:
+        !type:SimpleColoring
+          color: "#FFFFFF"
+  sprites:
+  - sprite: Goobstation/Mobs/Customization/yowie_fur.rsi
+    state: yowie_fur_feet_left

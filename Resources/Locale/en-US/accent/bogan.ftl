@@ -7,7 +7,7 @@ accent-bogan-suffix-1 = , cunt.
 accent-bogan-suffix-2 = , fucking oath.
 accent-bogan-suffix-3 = , fucking oath cunt.
 accent-bogan-suffix-4 = , you fuckin druggo.
-accent-bogan-suffix-5 = , you fuckin drug addict
+accent-bogan-suffix-5 = , you fuckin drug addict.
 
 accent-bogan-words-1 = woman
 accent-bogan-words-replace-1 = sheila
